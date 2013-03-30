@@ -1,0 +1,146 @@
+body {
+	margin-left: 150px;
+	margin-right: 150px;	
+	background-color: white;
+	}
+	
+a {
+	text-decoration: none;	
+	}
+	
+a:link {color:gray;;}     
+a:visited {color:gray;}  
+a:hover {color:black;}  
+a:active {color:black;} 
+
+a.info:hover { color: yellow; }
+	
+a.logo {
+	padding:5px;
+	padding-left: 10px;
+	padding-right:10px;
+	margin-right: 5px;
+	background-color: black;
+	color: white;
+	font-size: 25px;	
+	}
+
+			
+span {
+	font-size: 13px;	
+	}
+sup { font-size: 10px;}
+
+
+img.display {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 10px;		
+	}
+	
+#topElement {	
+height: 450px;
+border-bottom-style: solid;
+padding-bottom: 10px;
+
+}
+	
+div.top{
+	margin:5px;
+	padding:5px;
+	width: 300px;
+	height: 420px;	
+	float: left;
+}
+
+div.top p {
+	font-size: 20px;	
+	
+	}
+
+div.top p.ff {
+	padding-bottom: 10px;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;	
+	}
+
+div.top p.ff:first-line {
+		font-weight: bold;
+	}
+	
+div.top h3{
+	font-family:Arial;
+	font-size: 25px;
+	margin-bottom: -10px;	
+	}
+
+.firstfooter {
+		border-bottom-style: solid;
+		border-bottom-width: 1px;		
+	}
+
+.firstfooter ul{
+	list-style-type: none;
+	padding-left: 0px;
+	}
+	
+.firstfooter li{
+	margin-left: 0;
+	font-size: 20px;
+	font-style: oblique;
+	padding-right: 10px;
+	display: inline;
+	}
+
+
+p.feed {
+	font-size: 10px;	
+	}
+
+.secondfooter { 
+	padding-top: 10px;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	height: 80px;
+		}
+
+.secondfooter ul{
+	font-size: 25px;
+	list-style-type: none;
+	padding-left: 0px;
+	display: inline;
+	}		
+	
+.secondfooter li{
+	font-size: 10px;
+	font-style:normal;
+	padding-right: 10px;
+	display: inline;
+	
+	}
+	
+img.rss {
+	padding:2px;
+	width: 20px;
+	height: 20px;
+	background: url(rss.png) 0 0;	
+	}
+
+img.twitter {
+	padding:2px;
+	width: 20px;
+	height: 20px;
+	background: url(rss.png) -30 0;	
+	}
+	
+img.facebook {
+	padding:2px;
+	width: 20px;
+	height: 20px;
+	background: url(rss.png) -60 0;	
+	}
+	
+div.feederclass {
+		padding-right: 150px;
+		float: right;
+	}
